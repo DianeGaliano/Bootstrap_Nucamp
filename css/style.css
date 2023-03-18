@@ -14,6 +14,10 @@ header h2 {
     color: #CEC8FF;
 }
 
+.card-header{
+    color: white;
+    background-color: teal;
+}
 footer {
     background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
