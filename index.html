@@ -108,12 +108,12 @@
             <div class="col">
                 <div class="sm-6 mx-auto">
                     <div class="card">
-                        <h3 class="card-header">Reserve a Campsite</h3>
+                        <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
                         <div class="card-body">
                             <form id="reserveForm">
-                                <div class="row">
+                                <div class="row form-group">
                                     <label for="campers" class="col col-form-label">Number of Campers</label>
-                                    <div class="col-sm">
+                                    <div class="col col-sm-6">
                                         <select name="name" class="form-control" id="numCampers">
                                             <option selected="">Select ...</option>
                                             <option value="1">1</option>
@@ -123,18 +123,17 @@
                                             <option value="5">5</option>
                                             <option value="6">6</option>
                                         </select>
-                                    </div>
-                                    <div class="row form-group">
-                                        <label for="date" class="col col-form-label">Date</label>
-                                        <div class="col">
-                                            <input type="date" class="form-control" id="date" name="Date">
+                                        <div class="row form-group">
+                                            <label for="date" class="col col-form-label">Date</label>
+                                            <div class="col">
+                                                <input type="date" class="form-control" id="date" name="Date">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row form-group">
-                                        <div class="col">
-                                            <button type="submit" class="btn btn-primary">Search</button>
+                                        <div class="row form-group">
+                                            <div class="col">
+                                                <button type="submit" class="btn btn-primary btn-lg">Search</button>
+                                            </div>
                                         </div>
-                                    </div>
                                 </div>
                             </form>
 
